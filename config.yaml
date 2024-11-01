@@ -1,0 +1,45 @@
+---
+configure_dotfiles: false
+configure_terminal: false
+configure_osx: false
+
+dotfiles_repo: []
+dotfiles_repo_accept_hostkey: false
+dotfiles_repo_local_destination: []
+dotfiles_files: []
+ 
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - fish
+  - git
+  - gh
+  - gpg
+  - httpie
+  - iperf
+  - pv
+  - pyenv
+  - pyenv-virtualenv
+  - ripgrep
+  - starship
+  - wget
+
+homebrew_taps: []
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - arc
+  - docker
+  - dropbox
+  - iterm2
+  - obsidian
+  - transmit
+
+osx_script: []
+
+# Install packages from other package managers.
+# Note: You are responsible for making sure the required package managers are
+# installed, eg. through homebrew.
+pip_packages:
+  - name: jupyter
+  - name: numpy
+  - name: pandas
